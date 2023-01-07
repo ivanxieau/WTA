@@ -1,0 +1,10 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  hash: 0ac80187fa240127a5aac49b7569aaf1a5af29ff
+  data_hash: e66139847e70cc47fa6a2b26f8aa277fe67042ac
+tourney_name:
+  class: character
+Elo:
+  class: numeric

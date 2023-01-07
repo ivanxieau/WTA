@@ -89,7 +89,7 @@ TQ900M <- TQ900M[order(-TQ900M$Elo),]
 # Creating combined dataframe
 
 TQ_WTA <- rbind(TQ250M, TQ500M, TQ900M)
-TQ_WTA <- TQ_WTA[order(-TQ_WTA$Elo),]
+TQ_WTA <- TQ_WTA[order(TQ_WTA$tourney_level),]
 
 # Write to desktop
 write.csv(TQ250M,file="C:\\Users\\ivanx\\Documents\\GitHub\\WTA_Statistics\\22_250_TQ.csv", row.names=FALSE)
